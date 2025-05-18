@@ -1,0 +1,145 @@
+ * {
+  margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #eaf4ff;
+      height: 100vh;
+      position: relative;
+    }
+
+    .container {
+      width: 800px;
+      height: 540px;
+      background-color: rgb(251, 253, 255);
+      margin: 30px auto;
+      position: relative;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .leftside {
+      background-color: #2d40f1;
+      width: 35%;
+      height: 90%;
+      position: absolute;
+      margin: 30px;
+      color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+    }
+
+    .leftside h2 {
+      margin-top: 40px;
+      font-size: 24px;
+    }
+
+    .leftside p {
+      margin-top: 15px;
+      font-size: 16px;
+      color: #b4befe;
+    }
+
+    .leftchild {
+      background-color: #1f1dfb;
+      padding: 18px;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 70px;
+      width: 85%;
+    }
+
+    .leftchild p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .img {
+      display: flex;
+      align-items: center;
+    }
+
+    .img img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+  
+
+    .rightside {
+      position: absolute;
+      left: 35%;
+      padding: 50px 60px;
+      width: 65%;
+    }
+
+    .rightside h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .rightside a {
+      color: #2d40f1;
+      text-decoration: none;
+    }
+
+    .form{
+      margin-top: 25px;
+    }
+
+    .form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .form input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+    }
+
+    .options {
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .option {
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 15px 48px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .option input {
+      margin-right: 10px;
+    }
+ 
+    /* Button  */
+    .btn {
+      background-color: #2d40f1;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 15px 40px;
+      margin-top: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover{
+      background-color: #0b08f4;
+    }
